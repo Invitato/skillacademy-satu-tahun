@@ -1,0 +1,59 @@
+:root {
+  /* UI colors */
+  --font-white-ui: #ecf0f1;
+  --main-bg-color: #2c3e50;
+  --font-black-ui: #222831;
+  --font-blue-ui: #3282b8;
+
+  /* font type variables */
+  --font-family-title: 'Roboto Slab', serif;
+  --font-family-content: 'Noto Sans JP', sans-serif;
+}
+
+body {
+  font-family: var(--font-family-content);
+}
+
+.main-font {
+  font-family: var(--font-family-title);
+  color: var(--main-bg-color);
+}
+
+.content-font {
+  font-family: var(--font-family-content) !important;
+  color: var(--font-black-ui) !important;
+}
+
+.info {
+  font-family: var(--font-family-content) !important;
+  color: var(--font-black-ui) !important;
+}
+
+.link {
+  color: var(--font-blue-ui) !important;
+  font-weight: 600 !important;
+}
+
+.white-font {
+  color: var(--font-white-ui) !important;
+}
+
+@media only screen and (max-width: 400px) {
+  .title {
+    font-size: 18px !important;
+  }
+
+  .sub-title {
+    font-size: 12px !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .sub-title {
+    font-size: 14px !important;
+  }
+
+  .title {
+    font-size: 20px !important;
+  }
+}
