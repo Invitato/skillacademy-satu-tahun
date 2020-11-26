@@ -17,18 +17,17 @@ import g16 from './assets/16.jpg';
 import g17 from './assets/17.jpg';
 import g18 from './assets/18.jpg';
 import g19 from './assets/19.jpg';
-import g20 from './assets/20.jpg';
-import g21 from './assets/21.jpg';
-import g24 from './assets/24.jpg';
-import g25 from './assets/25.jpg';
-import g26 from './assets/26.jpg';
+import g20 from './assets/20-1.jpg';
+import g21 from './assets/21-1.jpg';
+import g24 from './assets/24-1.jpg';
+import g25 from './assets/25-1.jpg';
+import g26 from './assets/26-1.jpg';
 import g27 from './assets/27.jpg';
 import g28 from './assets/28.jpg';
 import g29 from './assets/29.jpg';
 import g30 from './assets/30.jpg';
 import g31 from './assets/31.jpg';
 import g32 from './assets/32.jpg';
-
 import g33 from './assets/33.jpg';
 import g34 from './assets/34.jpg';
 
