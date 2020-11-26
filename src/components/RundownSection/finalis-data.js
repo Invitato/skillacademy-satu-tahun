@@ -5,6 +5,12 @@ import bu3mar from './assets/bu/3-mar.jpg';
 import bu3mei from './assets/bu/3-mei.jpg';
 import bu4ga from './assets/bu/4-ga.jpg';
 
+/** competition */
+import co1def from './assets/co/1-def.jpg';
+import co3faris from './assets/co/3-faris.jpg';
+import co4gr from './assets/co/4-gr.jpg';
+import co5 from './assets/co/5-agung.jpg';
+
 export const BU_COMPETITION = [
   {
     title: 'Finalis 1',
@@ -58,7 +64,7 @@ export const CO_COMPETITION = [
     data: [
       {
         name: 'Defri Husnul Z',
-        imgUrl: bu1e,
+        imgUrl: co1def,
       },
     ],
   },
@@ -67,11 +73,11 @@ export const CO_COMPETITION = [
     data: [
       {
         name: 'Eriska Winayanti',
-        imgUrl: '',
+        imgUrl: bu1e,
       },
       {
         name: 'Nisrina Nadhifa',
-        imgUrl: '',
+        imgUrl: bu1n,
       },
     ],
   },
@@ -80,7 +86,7 @@ export const CO_COMPETITION = [
     data: [
       {
         name: 'Faris Nur Khulafa',
-        imgUrl: '',
+        imgUrl: co3faris,
       },
     ],
   },
@@ -89,7 +95,7 @@ export const CO_COMPETITION = [
     data: [
       {
         name: 'Muhammad Grand',
-        imgUrl: '',
+        imgUrl: co4gr,
       },
     ],
   },
@@ -98,7 +104,7 @@ export const CO_COMPETITION = [
     data: [
       {
         name: 'Moch. Agung Anugrah',
-        imgUrl: '',
+        imgUrl: co5,
       },
     ],
   },

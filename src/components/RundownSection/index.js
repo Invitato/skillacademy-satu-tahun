@@ -2,7 +2,7 @@ import React from 'react';
 import { bool } from 'prop-types';
 import { styWrapper } from './styles';
 
-import { BU_COMPETITION } from './finalis-data';
+import { BU_COMPETITION, CO_COMPETITION } from './finalis-data';
 
 function HelloSection({ isInvitation }) {
   const renderCard = (ITEMS, type = 4) => {
@@ -69,7 +69,8 @@ function HelloSection({ isInvitation }) {
                 achieve effectiveness of lifelong learning. So, who’s the winner?
               </p>
 
-              <hr />
+              <hr style={{ marginBottom: '24px' }} />
+              {renderCard(CO_COMPETITION)}
             </div>
           </div>
         </div>
