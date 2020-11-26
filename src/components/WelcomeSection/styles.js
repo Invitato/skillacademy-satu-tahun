@@ -131,8 +131,12 @@ export const styBackground = css`
   background-position: center;
 
   .title {
-    font-size: 2.5em;
+    font-size: 3.5em;
     margin: 20px 0;
+  }
+
+  .sub-title {
+    font-family: var(--font-family-custom);
   }
 
   @media screen and (max-width: 400px) {
@@ -161,7 +165,7 @@ export const styWrapper = css`
   margin-top: -8em;
 
   img {
-    max-width: 80px;
+    max-width: 200px;
     margin-bottom: 24px;
   }
 
@@ -196,6 +200,7 @@ export const styWrapper = css`
     font-size: 16px;
     color: #f1f1f1b3;
     margin-bottom: 8px;
+    font-family: var(--font-family-content);
   }
 
   .to-dearest-name {
@@ -203,6 +208,7 @@ export const styWrapper = css`
     padding-bottom: 12px;
     max-width: 400px;
     margin: auto auto 30px auto;
+    font-family: var(--font-family-content);
   }
 
   .margin__bottom {
@@ -213,20 +219,21 @@ export const styWrapper = css`
     color: #f14e95;
   }
 
-  @media screen and (max-width: 330px) {
+  @media screen and (max-width: 500px) {
     img {
-      max-width: 40px;
+      max-width: 120px;
       margin-top: 24px;
       margin-bottom: 8px;
     }
 
     .to-dearest {
       margin-bottom: 8px;
-      font-size: 16px;
+      font-size: 12px;
     }
 
     .to-dearest-name {
       margin: auto auto 16px auto;
+      font-size: 16px;
     }
   }
 `;

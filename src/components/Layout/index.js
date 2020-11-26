@@ -39,7 +39,7 @@ function MainLayout({ children }) {
 
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;700&family=Roboto+Slab:wght@600&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Nerko+One&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
           rel="stylesheet"
         />
       </Helmet>

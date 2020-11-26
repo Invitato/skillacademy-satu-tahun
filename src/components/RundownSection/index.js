@@ -6,50 +6,67 @@ import { styWrapper } from './styles';
 
 function HelloSection({ isInvitation }) {
   return (
-    <div id="fh5co-couple" css={styWrapper}>
-      <div className="container">
-        <div className="row">
-          <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-            <p className="info">
-              <strong>Agenda Kegiatan</strong> <br />
-              <strong>Pengukuhan dan Orasi Ilmiah</strong> <br />
-              <strong style={{ fontSize: '1.4em' }}>Prof. Dr. St. Dwiarso Utomo, SE.,M.Kom., Akt., CA.</strong> <br />
-              <strong>Guru Besar Bidang Ilmu Akuntansi</strong> <br />
-              <strong>Hari / Tanggal : Rabu, 25 November 2020 </strong> <br />
-            </p>
+    <>
+      <div css={styWrapper}>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
+              <p className="info">
+                <strong className="pr-co" style={{ fontSize: '2em' }}>
+                  Finalist of Business Idea Competition
+                </strong>
+                <br />
+                Business Idea Competition is a developing idea for Skill Academy in many aspects in order to achieve
+                life long learning mission. So, who’s the winner?
+              </p>
 
-            <hr />
-            <table class="table">
-              <thead>
-                <tr>
-                  <th style={{ width: '100px' }}>Waktu</th>
-                  <th>Kegiatan</th>
-                </tr>
-              </thead>
-              <tbody>
-                {RUNDOWN_DATA.map((i) => (
-                  <tr>
-                    <td>{i.time}</td>
-                    <td style={{ textAlign: 'left' }}>
-                      <span
-                        style={{
-                          textTransform: 'unset',
-                          fontWeight: 'normal',
-                          color: 'var(--font-black-ui)',
-                          fontSize: '14px',
-                          letterSpacing: 'normal',
-                        }}
-                        dangerouslySetInnerHTML={{ __html: i.desc }}
-                      />
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+              <hr />
+            </div>
           </div>
         </div>
       </div>
-    </div>
+
+      {/* ANOTHER FINALIST */}
+      <div css={styWrapper} className="fh5co-section-gray">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
+              <p className="info">
+                <strong className="pr-co" style={{ fontSize: '2em' }}>
+                  Finalist of Content Design Competition
+                </strong>
+                <br />
+                Content Design Competition is a developing idea of learning content for Skill Academy in order to
+                achieve effectiveness of lifelong learning. So, who’s the winner?
+              </p>
+
+              <hr />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* ANOTHER FINALIST */}
+      <div css={styWrapper}>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
+              <p className="info">
+                <strong className="pr-co" style={{ fontSize: '2em' }}>
+                  Finalist of TikTok Competition
+                </strong>
+                <br />
+                Fun is one of our CHIEF as Ruangguru’s employee. In order to celebrate Skill Academy 1st anniversary,
+                TikTok Competition held for telling the untold story of Skill Academy in a part of promotion. So, who’s
+                the winner?
+              </p>
+
+              <hr />
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
   );
 }
 

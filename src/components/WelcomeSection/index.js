@@ -51,23 +51,15 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
         <div className="container">
           <div className="row" css={styWrapper}>
             <div className="col-md-10 col-md-offset-1 text-center">
-              <img src={LogoUdinus} alt="udinus logo" />
-              <div style={{ margin: '0 0 24px 0' }}>
-                <h4 className="sub-title">SIDANG SENAT TERBUKA</h4>
-                <h4 className="sub-title">UNIVERSITAS DIAN NUSWANTORO</h4>
-                <h4 className="sub-title">SEMARANG</h4>
+              <img
+                src="https://cdn2.skillacademy.com/assets/575bd3ffbd/SkillAcademyLogo.078db88b6699c842664dff11cb3d7172.png"
+                alt="udinus logo"
+              />
+              <h1 className="title">Skill Academy Satu Tahun </h1>
+              <div style={{ marginTop: '3em' }}>
+                <h3 className="to-dearest">You're Invited</h3>
+                <h2 className="to-dearest-name">{`Business & Content Team `}</h2>
               </div>
-              <h4 className="sub-title" style={{ marginBottom: '-16px' }}>
-                PENGUKUHAN DAN ORASI ILMIAH
-              </h4>
-              <h1 className="title">{PROF_NAME_CAPITAL}</h1>
-              <div className={isAnonymGuest ? 'margin__bottom' : ''}>
-                <CountContainer />
-              </div>
-              <Fragment>
-                <h3 className="to-dearest">Kepada YTH:</h3>
-                <h2 className="to-dearest-name">{guestName}</h2>
-              </Fragment>
             </div>
           </div>
           <div className="row">

@@ -6,8 +6,9 @@
   --font-blue-ui: #3282b8;
 
   /* font type variables */
-  --font-family-title: 'Roboto Slab', serif;
-  --font-family-content: 'Noto Sans JP', sans-serif;
+  --font-family-title: 'Cedarville Cursive', cursive;
+  --font-family-content: 'PT Serif', serif;
+  --font-family-custom: 'Nerko One', cursive;
 }
 
 body {
@@ -17,6 +18,10 @@ body {
 .main-font {
   font-family: var(--font-family-title);
   color: var(--main-bg-color);
+}
+
+.pr-co {
+  font-family: var(--font-family-title);
 }
 
 .content-font {
@@ -40,7 +45,7 @@ body {
 
 @media only screen and (max-width: 400px) {
   .title {
-    font-size: 18px !important;
+    font-size: 26px !important;
   }
 
   .sub-title {
@@ -54,6 +59,6 @@ body {
   }
 
   .title {
-    font-size: 20px !important;
+    font-size: 26px !important;
   }
 }
