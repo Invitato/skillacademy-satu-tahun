@@ -11,8 +11,8 @@ function PhotoSection() {
         <div className="row">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-              <h2 className="main-font" style={{ fontSize: '1.5em' }}>
-                Prof. Dr. St. Dwiarso Utomo, S.E., M.Kom., Akt., CA.
+              <h2 className="main-font" style={{ fontSize: '2.5em' }}>
+                Throwback of Work from Office
               </h2>
             </div>
           </div>

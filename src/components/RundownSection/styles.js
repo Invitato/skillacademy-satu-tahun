@@ -8,10 +8,6 @@ export const styWrapper = css`
     line-height: 20px;
   }
 
-  img {
-    max-width: 120px;
-  }
-
   .notes {
     font-size: 12px;
     text-align: left;
@@ -38,4 +34,10 @@ export const styWrapper = css`
       font-size: 14px;
     }
   }
+`;
+
+export const styImgContainer = (url) => css`
+  background: url(${url}) 50% 50% no-repeat; /* 50% 50% centers image in div */
+  width: 250px;
+  height: 250px;
 `;
