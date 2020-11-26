@@ -48,7 +48,7 @@ function HelloSection({ isInvitation }) {
             <div>
               <p className="info text-center">
                 <strong className="pr-co" style={{ fontSize: '2.5em' }}>
-                  Your Are Invited!
+                  You Are Invited!
                 </strong>
               </p>
 

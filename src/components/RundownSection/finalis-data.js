@@ -132,17 +132,22 @@ export const TT_COMPETITION = [
     title: 'Finalis 2',
     data: [
       {
-        name: 'Sylvania Vanya Tharina',
-        imgUrl: tt2,
-      },
-      {
         name: 'Laila Mei',
-        imgUrl: tt2va,
+        imgUrl: tt2,
       },
     ],
   },
   {
     title: 'Finalis 3',
+    data: [
+      {
+        name: 'Sylvania Vanya Tharina',
+        imgUrl: tt2va,
+      },
+    ],
+  },
+  {
+    title: 'Finalis 4',
     data: [
       {
         name: 'Eka Anggraeny',
@@ -155,7 +160,7 @@ export const TT_COMPETITION = [
     ],
   },
   {
-    title: 'Finalis 4',
+    title: 'Finalis 5',
     data: [
       {
         name: 'Deral Putra Wardana',

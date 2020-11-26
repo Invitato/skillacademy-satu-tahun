@@ -12,13 +12,13 @@ function PhotoSection() {
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
               <h2 className="main-font" style={{ fontSize: '2.5em' }}>
-                Throwback of Work from Office
+                Throwback of <br /> Work from Office
               </h2>
             </div>
           </div>
           <div className="row">
             <div className="col-md-8 col-md-offset-2">
-              <ImageGallery autoPlay infinite lazyLoad items={photos} showBullets={false} />;
+              <ImageGallery autoPlay infinite lazyLoad items={photos} showBullets={false} />
             </div>
           </div>
         </div>
