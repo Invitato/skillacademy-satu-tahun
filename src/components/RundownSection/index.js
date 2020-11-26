@@ -66,7 +66,8 @@ function HelloSection({ isInvitation }) {
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
               <p className="info">
                 <strong className="pr-co" style={{ fontSize: '2em' }}>
-                  Finalist of Business Idea Competition
+                  Finalist of <br />
+                  Business Idea Competition
                 </strong>
                 <br />
                 Business Idea Competition is a developing idea for Skill Academy in many aspects in order to achieve
@@ -87,7 +88,8 @@ function HelloSection({ isInvitation }) {
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
               <p className="info">
                 <strong className="pr-co" style={{ fontSize: '2em' }}>
-                  Finalist of Content Design Competition
+                  Finalist of <br />
+                  Content Design Competition
                 </strong>
                 <br />
                 Content Design Competition is a developing idea of learning content for Skill Academy in order to
@@ -108,7 +110,8 @@ function HelloSection({ isInvitation }) {
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
               <p className="info">
                 <strong className="pr-co" style={{ fontSize: '2em' }}>
-                  Finalist of TikTok Competition
+                  Finalist of <br />
+                  TikTok Competition
                 </strong>
                 <br />
                 Fun is one of our CHIEF as Ruangguru’s employee. In order to celebrate Skill Academy 1st anniversary,

@@ -19,6 +19,9 @@ function PhotoSection() {
           <div className="row">
             <div className="col-md-8 col-md-offset-2">
               <ImageGallery autoPlay infinite lazyLoad items={photos} showBullets={false} />
+              <h2 className="main-font" style={{ fontSize: '2.5em' }}>
+                See you soon!
+              </h2>
             </div>
           </div>
         </div>
