@@ -1,7 +1,8 @@
 import React from 'react';
+import ImageGallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
 
-import Photo from './assets/prof-4.jpg';
+import { photos } from './photo-data';
 
 function PhotoSection() {
   return (
@@ -17,11 +18,7 @@ function PhotoSection() {
           </div>
           <div className="row">
             <div className="col-md-8 col-md-offset-2">
-              <img
-                style={{ maxWidth: '400px' }}
-                src={Photo}
-                alt="Prof. Dr. St. Dwiarso Utomo, S.E., M.Kom., Akt., CA."
-              />
+              <ImageGallery autoPlay infinite lazyLoad items={photos} showBullets={false} />;
             </div>
           </div>
         </div>
