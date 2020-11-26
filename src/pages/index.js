@@ -8,6 +8,7 @@ import HelloSection from '@components/HelloSection';
 import RundownSection from '@components/RundownSection';
 import PhotoSection from '@components/PhotoSection';
 import FooterSection from '@components/FooterSection';
+import FloatingMusic from '@components/FloatingMusic';
 
 function Home({ location }) {
   const guestName = decodeURIComponent(getQueryValue(location, 'to') || 'Bapak / Ibu / Saudara');
@@ -46,6 +47,7 @@ function Home({ location }) {
         onClickDetail={handleClickDetail}
       />
       {renderDetailContent()}
+      <FloatingMusic />
     </MainLayout>
   );
 }

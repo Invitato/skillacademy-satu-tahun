@@ -43,6 +43,15 @@ body {
   color: var(--font-white-ui) !important;
 }
 
+.main-bg {
+  background-color: #222745 !important;
+  color: #ffffff !important;
+}
+
+.fn-white {
+  color: #ffffff !important;
+}
+
 @media only screen and (max-width: 400px) {
   .title {
     font-size: 26px !important;

@@ -1,7 +1,7 @@
 import React, { Fragment, useState } from 'react';
 import IconMusic from '@assets/images/music-icon.png';
 import IconMusicStop from '@assets/images/music-stop-icon.png';
-import MusicBacksound from '@assets/music/lagu-pernikahan-impian.mp3';
+import MusicBacksound from './sound.mp3';
 
 import { styMusicFloating } from './styles';
 
@@ -30,15 +30,6 @@ function FloatingMusic() {
           <source src={MusicBacksound} type="audio/mpeg" />
           Your browser does not support the audio element.
         </audio>
-
-        <div onClick={toggleMusic}>
-          <img
-            src={play ? IconMusic : IconMusicStop}
-            className="icon-music"
-            alt="icon-music"
-            title={`${play ? 'Matikan Musik' : 'Putar Musik'}`}
-          />
-        </div>
       </div>
     </Fragment>
   );

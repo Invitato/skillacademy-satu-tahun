@@ -23,6 +23,13 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
   const handleShowDetail = () => {
     if (loading) return undefined;
 
+    try {
+      const myAudio = document.getElementById('myAudio');
+      myAudio.play();
+    } catch {
+      console.error('FAILED_TO_PLAY_MUSIC');
+    }
+
     onClickDetail();
 
     if (!alreadyDownloadData) {
