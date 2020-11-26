@@ -2,7 +2,7 @@ import React from 'react';
 import { bool } from 'prop-types';
 import { styWrapper } from './styles';
 
-import { BU_COMPETITION, CO_COMPETITION } from './finalis-data';
+import { BU_COMPETITION, CO_COMPETITION, TT_COMPETITION } from './finalis-data';
 
 function HelloSection({ isInvitation }) {
   const renderCard = (ITEMS, type = 4) => {
@@ -10,21 +10,46 @@ function HelloSection({ isInvitation }) {
       <div className="row text-center">
         {ITEMS.map((item) => (
           <div className={'col-md-6 text-center'}>
-            <div style={{ border: '1.3px solid #e6e1e1', borderRadius: '24px', margin: '16px 0', padding: '8px 16px' }}>
+            <div
+              style={{
+                border: '1.3px solid #e6e1e1',
+                borderRadius: '24px',
+                margin: '8px 0',
+                padding: '8px 16px',
+                minHeight: '315px',
+              }}
+            >
               <p style={{ fontWeight: 'bold', fontSize: '1.5em' }}>{item.title}</p>
               <div class="row text-center">
-                {item.data.map((p) => (
-                  <div className={item.data.length === 1 ? 'col-md-6 col-md-offset-3' : 'col-md-6 '}>
-                    <img
-                      src={p.imgUrl}
-                      alt={p.name}
-                      style={{ maxWidth: '100%', display: 'block', margin: '0 auto;', borderRadius: '50%' }}
-                    />
-                    <p class="info" style={{ fontSize: '1.3em' }}>
-                      {p.name}
-                    </p>
-                  </div>
-                ))}
+                {item.data.map((p) => {
+                  const isSingle = item.data.length === 1;
+
+                  return (
+                    <div>
+                      <div className={isSingle ? 'row' : ''}>
+                        <div className={isSingle ? 'col-md-6 col-md-offset-3' : 'col-md-6 '}>
+                          <img
+                            src={p.imgUrl}
+                            alt={p.name}
+                            style={{ maxWidth: '100%', display: 'block', margin: '0 auto;', borderRadius: '50%' }}
+                          />
+                          {!isSingle && (
+                            <p class="info" style={{ fontSize: '1.3em' }}>
+                              {p.name}
+                            </p>
+                          )}
+                        </div>
+                      </div>
+                      {isSingle && (
+                        <div className="row">
+                          <p class="info" style={{ fontSize: '1.3em' }}>
+                            {p.name}
+                          </p>
+                        </div>
+                      )}
+                    </div>
+                  );
+                })}
               </div>
             </div>
           </div>
@@ -91,7 +116,8 @@ function HelloSection({ isInvitation }) {
                 the winner?
               </p>
 
-              <hr />
+              <hr style={{ marginBottom: '24px' }} />
+              {renderCard(TT_COMPETITION)}
             </div>
           </div>
         </div>
