@@ -8,9 +8,9 @@ import '@assets/css/bootstrap.css';
 import '@assets/css/style.css';
 import './assets/custom-styles.css';
 
-const TITLE = `Pengukuhan dan Orasi Ilmiah: Prof. Dr. St. Dwiarso Utomo, S.E., M.Kom., Akt., CA.`;
-const IMAGE_URL = `https://user-images.githubusercontent.com/10141928/99893193-b1dece00-2caf-11eb-8c15-5a13a75b0354.jpg`;
-const META_DESCRIPTION = `REKTOR UNIVERSITAS DIAN NUSWANTORO Mengharap dengan hormat Bapak /Ibu / Saudara untuk menghadiri Sidang Senat Terbuka Universitas Dian Nuswantoro, dalam rangka : Pengukuhan dan Orasi Ilmiah : Prof. Dr. St. Dwiarso Utomo, S.E., M.Kom., Akt., CA.`;
+const TITLE = `Skill Academy Satu Tahun`;
+const IMAGE_URL = `https://cdn2.skillacademy.com/assets/575bd3ffbd/SkillAcademyLogo.078db88b6699c842664dff11cb3d7172.png  `;
+const META_DESCRIPTION = `Dear, Business & Content Team, We would like to invite you to come to Skill Academy 1st Anniversary. It will be held at Friday, 27th November 2020. Come come! We looking forward to seeing you for having fun together. See you soon!`;
 
 function MainLayout({ children }) {
   return (
