@@ -28,7 +28,7 @@ const TIMELINE = [
   },
   {
     title: 'Zoom Background',
-    desc: ` <a href="https://user-images.githubusercontent.com/10141928/99877468-0858f780-2c31-11eb-85e6-63965ba4d87d.jpg" ${{
+    desc: ` <a href="https://drive.google.com/file/d/1xgKDbsac6o_sjrp5r0ACyiBWZhx7SwsO/view?usp=sharing" ${{
       ...LINK,
     }}>LINK DOWNLOAD</a>
     `,
