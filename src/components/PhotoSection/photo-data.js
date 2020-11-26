@@ -28,6 +28,7 @@ import g29 from './assets/29.jpg';
 import g30 from './assets/30.jpg';
 import g31 from './assets/31.jpg';
 import g32 from './assets/32.jpg';
+
 import g33 from './assets/33.jpg';
 import g34 from './assets/34.jpg';
 
